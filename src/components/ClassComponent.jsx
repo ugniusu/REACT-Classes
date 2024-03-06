@@ -24,6 +24,7 @@ export class ClassComponent extends Component {
         >
           Click
         </button>
+        <h1>{this.props.text}</h1>
       </div>
     );
   }
