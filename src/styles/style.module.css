@@ -1,0 +1,12 @@
+.newStyle {
+  background-color: burlywood;
+  color: brown;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.newStyle1 {
+  text-transform: uppercase;
+  text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.432);
+}
