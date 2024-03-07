@@ -1,6 +1,7 @@
 import "./App.css";
 import BasicClassComponent from "./components/BasicClassComponent";
 import ClassComponent from "./components/ClassComponent";
+import GenerateSquares from "./components/GenerateSquares";
 import styles from "./styles/style.module.css";
 import classname from "classnames";
 
@@ -23,6 +24,7 @@ function App() {
       <BasicClassComponent color="red" bg="red" numberArray={numberArray} />
 
       <ClassComponent text="Sveiki visi" />
+      <GenerateSquares />
     </div>
   );
 }
